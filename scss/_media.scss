@@ -1,77 +1,151 @@
-@media screen and (max-width:320px) and (max-width:480px) {
-    #principal{
-        background-image: url(../media/technician-in-antistatic-gloves-using-screwdriver-to-disassemble-borken-mobile-phone-going-to-repair-motherboard-sitting-at-his-workplace-in-laboratory-with-needed-equipment.jpg);
-        background-repeat: no-repeat;
-        background-position: center center ;
-        background-size: cover;
-        height: 1800px;
-    }
-    
-    #contenedor{
-            padding-top: 10vh;
-            padding-bottom:10vh;
-            padding-left: 25rem;
-            font-weight: bold;
+@media screen and (max-width:960px)  {
+    div{
+        .containerfluid{
+            width: 100%;
         }
-    
-    
-    #reparaciones{
+    }
+    #servicios{
+        width: 100%;
         display: flex;
-        flex-direction: row;
-        margin: 15vh;
-        
-    }
-    
-    #footer{
+        flex-wrap: wrap;
         align-items: center;
-    
-    }
-    footer{
-        padding: 5vh;
-    }
-    footer{
-        ul{
-            margin-top: 5vh;
+
+        .titulos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
         }
+
+        contenido-p{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .img-thumbnail{
+            height: auto;
+            width: 50%;
+            position: relative;
+            left: 50vh;
+        }
+      
     }
-    
-    /*/----Nosotros----/*/
-    .img-fondo{
-        background-image: url(../media/the-technician-repairing-the-computer-computer-hardware-repairing-upgrade-and-technology.jpg);
-        background-repeat: no-repeat;
-        background-position: center center ;
-        background-size: cover;
-        height: 1800px;
-    }
-    
-    #Con-Nosotros{
-        p{
+}
+    #principal{
+    background-image: url(../media/technician-in-antistatic-gloves-using-screwdriver-to-disassemble-borken-mobile-phone-going-to-repair-motherboard-sitting-at-his-workplace-in-laboratory-with-needed-equipment.jpg);
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    height: 480vh;
+}
+
+#contenedor{
+        padding-top: 10vh;
+        padding-bottom:10vh;
+        padding-left: 25rem;
         font-weight: bold;
-        color: black;
-        border-radius: 5vh;
-        font-size: $size-font;
-        width: 35vh;
-        align-items: center;
-        position: relative;
-        left: 15vh;
-        top: 20vh;
     }
-    h1{
-        position: relative;
-        top: 5vh;
-        left: 15vh;
-        color: black;
-        font-weight: bold;
-        text-decoration: underline;
-        transition: 2s;
-    }
- 
-    
-    #Wpp{
-        position: relative;
-        top: 12vh;
-    }
+
+
+#reparaciones{
+    display: flex;
+    flex-direction: row;
+    margin: 15vh;
     
 }
 
+#footer{
+    align-items: center;
+
 }
+footer{
+    padding: 5vh;
+}
+footer{
+    ul{
+        margin-top: 5vh;
+    }
+}
+
+/*/----Nosotros----/*/
+.img-fondo{
+    background-image: url(../media/the-technician-repairing-the-computer-computer-hardware-repairing-upgrade-and-technology.jpg);
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    height: 1800px;
+}
+
+#Con-Nosotros{
+    p{
+    font-weight: bold;
+    color: black;
+    border-radius: 5vh;
+    font-size: $size-font;
+    width: 35vh;
+    align-items: center;
+    position: relative;
+    left: 75vh;
+    top: 20vh;
+}
+h1{
+    position: relative;
+    top: 5vh;
+    left: 50vh;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 2s;
+}
+h1 :hover {
+    color: red;
+
+}
+}
+
+#Wpp{
+    position: relative;
+    top: 12vh;
+}
+ #Griyas{
+    display: grid;
+    grid-template-columns: 25rem 25rem 25rem;
+    column-gap: 5rem;
+    row-gap: 5rem;
+    transition: 2s;
+    :hover{
+        box-shadow: 6px 8px 12px;
+        border: 1px solid black;
+    }
+ }
+    /*/---------------Animacion de cartel oferta------------------/*/
+    #oferta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        margin-left: 5vh;
+        width: 10vh;
+        border-radius: 12px;
+        background-color: rgb(201, 30, 30);
+        animation-name: un_efecto;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 6s;
+        animation-delay: 2s;
+        font-size: 15px;
+    
+    }
+    @keyframes un_efecto {
+        0% {width: 15vh;}
+        25%{width: 20vh;}
+        50%{width: 22vh;}
+        75%{width: 23vh; }
+        100%{width: 25vh; background:aliceblue;color: white;}
+    }
+
+
+ @media screen and (min-width:0px) {
+    
+ }
