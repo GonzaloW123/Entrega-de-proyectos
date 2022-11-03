@@ -4,11 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
   },
   "keywords": [
     "123"
   ],
   "author": "Gonzalo Montes de Oca",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
 }

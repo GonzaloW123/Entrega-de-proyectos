@@ -1,0 +1,77 @@
+@media screen and (max-width:320px) and (max-width:480px) {
+    #principal{
+        background-image: url(../media/technician-in-antistatic-gloves-using-screwdriver-to-disassemble-borken-mobile-phone-going-to-repair-motherboard-sitting-at-his-workplace-in-laboratory-with-needed-equipment.jpg);
+        background-repeat: no-repeat;
+        background-position: center center ;
+        background-size: cover;
+        height: 1800px;
+    }
+    
+    #contenedor{
+            padding-top: 10vh;
+            padding-bottom:10vh;
+            padding-left: 25rem;
+            font-weight: bold;
+        }
+    
+    
+    #reparaciones{
+        display: flex;
+        flex-direction: row;
+        margin: 15vh;
+        
+    }
+    
+    #footer{
+        align-items: center;
+    
+    }
+    footer{
+        padding: 5vh;
+    }
+    footer{
+        ul{
+            margin-top: 5vh;
+        }
+    }
+    
+    /*/----Nosotros----/*/
+    .img-fondo{
+        background-image: url(../media/the-technician-repairing-the-computer-computer-hardware-repairing-upgrade-and-technology.jpg);
+        background-repeat: no-repeat;
+        background-position: center center ;
+        background-size: cover;
+        height: 1800px;
+    }
+    
+    #Con-Nosotros{
+        p{
+        font-weight: bold;
+        color: black;
+        border-radius: 5vh;
+        font-size: $size-font;
+        width: 35vh;
+        align-items: center;
+        position: relative;
+        left: 15vh;
+        top: 20vh;
+    }
+    h1{
+        position: relative;
+        top: 5vh;
+        left: 15vh;
+        color: black;
+        font-weight: bold;
+        text-decoration: underline;
+        transition: 2s;
+    }
+ 
+    
+    #Wpp{
+        position: relative;
+        top: 12vh;
+    }
+    
+}
+
+}
